@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./common.js" defer></script>
+    <title>Document</title>
+    <style>
+        *{margin-bottom : 10px;}
+        #ascii-wrapper{font-family: monospace; font-size : 4px; white-space: pre;}
+    </style>
+</head>
+<body>
+    <input type="file" id="uploader" onchange="readURL(this)"><br>
+    <div id="loading"></div>
+    <canvas id="preview"></canvas>
+    <div id="ascii-wrapper"></div>
+</body>
+</html>
